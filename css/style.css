@@ -372,3 +372,57 @@ main{
     display: inline-block;
     margin: 50px 0;
 }
+
+/* Partnership */
+.col.partnership-first,
+.col.partnership-second,
+.col.partnership-fourth,
+.col.partnership-fifth {
+    width: calc(60% /4);
+
+    /* test */
+    border: 1px solid yellowgreen;
+    background-color: coral;
+    height: 460px;
+}
+
+.col.partnership-third{
+    width: 40%;
+
+     /* test */
+     border: 1px solid yellowgreen;
+     background-color: goldenrod;
+     height: 460px;
+}
+
+.partnership .square{
+    width: 230px;
+    height: 230px;
+    position: relative;
+
+    /* test */
+    border:1px solid pink;
+    background-color: gold;
+}
+
+.designit-first{
+    width: 210px;
+    height: 210px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* test */
+    background-color: green;
+}
+
+.logo{
+    width: 150px;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
