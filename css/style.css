@@ -77,7 +77,7 @@ img{
     margin: auto;
 
     /* test */
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 /* Text and Title */
@@ -338,4 +338,24 @@ main{
 
 .partner-text p{
     line-height: 30px;
+}
+
+/* Operations */
+.row{
+    padding: 50px 0;
+}
+
+.operations .col{
+    width: calc(100% / 3 - 60px);
+}
+
+.operation-top-center{
+    margin: 0 90px;
+}
+
+.operation-text h3{
+    margin-bottom: 20px;
+}
+.underline{
+    text-decoration: underline;
 }
