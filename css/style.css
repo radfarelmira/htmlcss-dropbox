@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Open Sans',sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 ul{
@@ -66,6 +66,9 @@ img{
 }
 
 /* Containers */
+.container-xlarge{
+    width: 100%;
+}
 
 .container-large{
     width: 80%;
@@ -77,7 +80,7 @@ img{
     margin: auto;
 
     /* test */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* Text and Title */
@@ -358,4 +361,14 @@ main{
 }
 .underline{
     text-decoration: underline;
+}
+
+/* Users */
+.users{
+    margin-top: 200px;
+}
+
+.users a{
+    display: inline-block;
+    margin: 50px 0;
 }
