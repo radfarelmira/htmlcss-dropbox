@@ -374,24 +374,20 @@ main{
 }
 
 /* Partnership */
+.partnership{
+    height: 460px;
+}
+
 .col.partnership-first,
 .col.partnership-second,
 .col.partnership-fourth,
 .col.partnership-fifth {
     width: calc(60% /4);
-
-    /* test */
-    border: 1px solid yellowgreen;
-    background-color: coral;
-    height: 460px;
 }
 
 .col.partnership-third{
     width: 40%;
-
-     /* test */
-     border: 1px solid yellowgreen;
-     background-color: goldenrod;
+     background-color: #f5f5f5;
      height: 460px;
 }
 
@@ -399,23 +395,16 @@ main{
     width: 230px;
     height: 230px;
     position: relative;
-
-    /* test */
-    border:1px solid pink;
-    background-color: gold;
 }
 
-.designit-first{
+.designit-bg-first{
     width: 210px;
-    height: 210px;
-    
+    height: 210px; 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    /* test */
-    background-color: green;
+    background-color: #a2d39b;
 }
 
 .logo{
@@ -425,4 +414,29 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#designit{
+    background-color: #d0e9cd;
+}
+#uf{
+    background-color: #0093ce;
+}
+#asu{
+    background-color: #61082b;
+}
+#topps{
+    background-color: #ff1c1c;
+}
+#world-bicycle-relief{
+    background-color: #d5001f;
+}
+#lonely-planet{
+    background-color: #0d2481;
+}
+#hearst{
+    background-color: #b4d0e7;
+}
+#clear-channel{
+    background-color: #ffd830;
 }
