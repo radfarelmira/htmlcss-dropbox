@@ -56,6 +56,11 @@ img{
     color: black;
 }
 
+.btn-white{
+    background-color: white;
+    color:black;
+}
+
 .btn-skyblue{
     background-color: #3c84ff;
     color: white;
@@ -268,7 +273,7 @@ main{
 .col-advantages-main ul{
     margin-bottom: 50px;
 }
-.col-advantages-main *{
+.col-advantages-main li{
     margin-bottom: 20px;
 }
 
@@ -276,16 +281,17 @@ main{
     font-weight: 800;
 }
 
-.fa-ul {
-    margin-left: 1.5em;
+.li-icon{
+    padding-left: 20px;
 }
 
-.fa-li {
-    left: -2em;
-    position: absolute;
-    text-align: center;
-    width: 2em;
-    line-height: inherit;
+.icon{
+    margin-left: -20px;
+    line-height: 5px;
+}
+
+.buying{
+    margin-top: 30px;
 }
 
 .buying .text-blue{
@@ -298,7 +304,11 @@ main{
 	width: 40px;
 	height: 1px;
 	background-color: gray;
-	margin:30px 0;
+	margin:30px 0 40px 0;
+}
+
+.col-advantages-main h4{
+    margin-bottom: 20px;
 }
 
 /*Enterprise */
@@ -467,3 +477,21 @@ main{
     margin: 30px 0 50px 0;
 }
 
+/* Trial */
+.trial{
+    background-color: #b4d0e7;
+    height: 330px;
+}
+
+.trial-content{
+    padding: 130px 0;
+}
+.trial-text{
+    width: 50%;
+    color:#61082b;
+    float: left;   
+}
+
+.trial-btn{
+    float: right;
+}
