@@ -187,25 +187,23 @@ main{
 }
 
 .jumbotron-content{
-   position: relative;
-   top:60px;
+    padding-top: 70px;
 }
 
 .jumbotron-content h1{
     font-size: 70px;
 }
 
-.jumbotron-sub{
-    margin-top: 50px;
-}
-
 .jumbo-sub-left{
     width: 30%;
-    margin-right: 60px;   
+    margin-right: 60px; 
+    margin-top: 60px;  
 }
 
 .jumbo-sub-right{
-    width: 65%;      
+    width: 65%; 
+    position: relative;
+    top:60px;     
 }
 
 .jumbo-sub-left p{
