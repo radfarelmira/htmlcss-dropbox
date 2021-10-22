@@ -505,6 +505,16 @@ main{
     padding: 50px 0;
 }
 
+.faq-text p{
+    display: none;
+    margin-top: 20px;
+    color: gray;
+}
+
+.row-faq:hover p{
+    display: inline-block;
+}
+
 .row-faq{
     border-top: 1px solid lightgray;
     padding: 40px 0;
